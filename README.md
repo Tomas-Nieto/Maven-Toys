@@ -8,11 +8,11 @@ El objetivo es preparar los datos, analizarlos y visualizarlos, y posteriormente
 Se nos proporcionan cuatro tablas en formato CSV que contienen los siguientes campos:
 
 ## Products (35 Productos Únicos)
-Product_ID – ID único de cada producto ofrecido.
-Product_Name – Nombre único asignado a cada producto.
-Product_Category – Categoría asignada a cada producto según sus características o utilidad.
-Product_Cost – Costo para fabricar o adquirir el producto.
-Product_Price – Precio al que se vende el producto al cliente.
+Product_ID – ID único de cada producto ofrecido.  
+Product_Name – Nombre único asignado a cada producto.  
+Product_Category – Categoría asignada a cada producto según sus características o utilidad.  
+Product_Cost – Costo para fabricar o adquirir el producto.  
+Product_Price – Precio al que se vende el producto al cliente.  
 
 ## Stores (50 Diferentes Tiendas)
 Store_ID – ID único de cada tienda.  
@@ -33,24 +33,24 @@ Cost – Costo total de los productos vendidos, calculado como Units * Product_C
 Profit – Ganancia obtenida por las ventas, calculada como Revenue - Cost.  
 
 ## Inventory:
-Store_ID – ID único de la tienda.
-Product_ID – ID único del producto.
-Stock_On_Hand – Cantidad disponible del producto en inventario en la tienda.
+Store_ID – ID único de la tienda.  
+Product_ID – ID único del producto.  
+Stock_On_Hand – Cantidad disponible del producto en inventario en la tienda.  
 
 Además, se incorporaron una tabla de calendario para facilitar el análisis temporal por fechas y una tabla de estados de México para mejorar la visualización geográfica y reorganización del mapa interactivo según la ubicación de las tiendas.
 
 ## States
-City - Ciudad de México donde está ubicada la tienda
-State - Estado de México donde está ubicada la tienda.
+City - Ciudad de México donde está ubicada la tienda  
+State - Estado de México donde está ubicada la tienda.  
 
 ## Calendar
-Date – Fecha completa.
-Month – Nombre del mes (ej. Enero, Febrero, etc.).
-Month Order – Número del mes (1 para Enero, 2 para Febrero, etc.).
-Year – Año correspondiente a la fecha.
-Day Name – Nombre del día de la semana (ej. Lunes, Martes...).
-WeekDay – Número del día de la semana (1 = Lunes, 7 = Domingo, útil para ordenamiento).
-
+Date – Fecha completa.  
+Month – Nombre del mes (ej. Enero, Febrero, etc.).  
+Month Order – Número del mes (1 para Enero, 2 para Febrero, etc.).  
+Year – Año correspondiente a la fecha.  
+Day Name – Nombre del día de la semana (ej. Lunes, Martes...).  
+WeekDay – Número del día de la semana (1 = Lunes, 7 = Domingo, útil para ordenamiento).  
+  
 ## Data Model
 El modelo de datos está estructurado bajo un enfoque de esquema en estrella, donde las tablas de hechos (Ventas, Inventario) se conectan con diversas tablas dimensión como Productos, Tiendas, Calendario y Estados.
 ![Model](https://github.com/user-attachments/assets/55d87b6f-9514-432d-8efb-95c4b8055df4)
