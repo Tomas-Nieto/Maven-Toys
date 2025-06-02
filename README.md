@@ -5,6 +5,8 @@ Se nos dan dados datos de ventas e inventario de una cadena ficticia de jugueter
 El objetivo es preparar los datos, analizarlos y visualizarlos, y posteriormente presentar los hallazgos que permitan a la cadena de jugueterías mejorar su capacidad de toma de decisiones e incrementar sus ganancias.  
 
 # Recopilacion de Datos
+Los datos utilizados en este proyecto se proporcionan desde el siguiente enlace:
+[Maven Toys](https://www.kaggle.com/datasets/mysarahmadbhat/toy-sales)
 Se nos proporcionan cuatro tablas en formato CSV que contienen los siguientes campos:
 
 ## Products (35 Productos Únicos)
