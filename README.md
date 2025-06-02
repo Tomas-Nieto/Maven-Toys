@@ -15,22 +15,22 @@ Product_Cost – Costo para fabricar o adquirir el producto.
 Product_Price – Precio al que se vende el producto al cliente.
 
 ## Stores (50 Diferentes Tiendas)
-Store_ID – ID único de cada tienda.
-Store_Name – Nombre asignado a cada juguetería.
-Store_City – Ciudad de México donde está ubicada la tienda.
-Store_Location – Clasificación de la ubicación dentro de la ciudad (Centro, Comercial, Residencial, Aeropuerto).
-Store_Open_Date – Fecha en que la tienda fue inaugurada.
-Store_State – Estado de México donde está ubicada la tienda.
+Store_ID – ID único de cada tienda.  
+Store_Name – Nombre asignado a cada juguetería.  
+Store_City – Ciudad de México donde está ubicada la tienda.  
+Store_Location – Clasificación de la ubicación dentro de la ciudad (Centro, Comercial, Residencial, Aeropuerto).  
+Store_Open_Date – Fecha en que la tienda fue inaugurada.  
+Store_State – Estado de México donde está ubicada la tienda.  
 
 ## Sales
-Sale_ID – ID único para cada transacción realizada en una tienda.
-Date – Fecha en la que ocurrió la transacción.
-Store_ID – ID único de la tienda donde se realizó la venta.
-Product_ID – ID único del producto vendido.
-Units – Número de unidades del producto vendidas.
-Revenue – Ingresos generados por la venta de productos, calculados como Units * Product_Price.
-Cost – Costo total de los productos vendidos, calculado como Units * Product_Cost.
-Profit – Ganancia obtenida por las ventas, calculada como Revenue - Cost.
+Sale_ID – ID único para cada transacción realizada en una tienda.   
+Date – Fecha en la que ocurrió la transacción.  
+Store_ID – ID único de la tienda donde se realizó la venta.  
+Product_ID – ID único del producto vendido.  
+Units – Número de unidades del producto vendidas.  
+Revenue – Ingresos generados por la venta de productos, calculados como Units * Product_Price.  
+Cost – Costo total de los productos vendidos, calculado como Units * Product_Cost.  
+Profit – Ganancia obtenida por las ventas, calculada como Revenue - Cost.  
 
 ## Inventory:
 Store_ID – ID único de la tienda.
