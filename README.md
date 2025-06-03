@@ -9,14 +9,14 @@ Los datos utilizados en este proyecto se proporcionan desde el siguiente enlace:
 [Maven Toys](https://www.kaggle.com/datasets/mysarahmadbhat/toy-sales)  
 Se nos proporcionan cuatro tablas en formato CSV que contienen los siguientes campos:
 
-## Products (35 Productos Únicos)
+### Products (35 Productos Únicos)
 Product_ID – ID único de cada producto ofrecido.  
 Product_Name – Nombre único asignado a cada producto.  
 Product_Category – Categoría asignada a cada producto según sus características o utilidad.  
 Product_Cost – Costo para fabricar o adquirir el producto.  
 Product_Price – Precio al que se vende el producto al cliente.  
 
-## Stores (50 Diferentes Tiendas)
+### Stores (50 Diferentes Tiendas)
 Store_ID – ID único de cada tienda.  
 Store_Name – Nombre asignado a cada juguetería.  
 Store_City – Ciudad de México donde está ubicada la tienda.  
@@ -24,7 +24,7 @@ Store_Location – Clasificación de la ubicación dentro de la ciudad (Centro, 
 Store_Open_Date – Fecha en que la tienda fue inaugurada.  
 Store_State – Estado de México donde está ubicada la tienda.  
 
-## Sales
+### Sales
 Sale_ID – ID único para cada transacción realizada en una tienda.   
 Date – Fecha en la que ocurrió la transacción.  
 Store_ID – ID único de la tienda donde se realizó la venta.  
@@ -34,18 +34,18 @@ Revenue – Ingresos generados por la venta de productos, calculados como Units 
 Cost – Costo total de los productos vendidos, calculado como Units * Product_Cost.  
 Profit – Ganancia obtenida por las ventas, calculada como Revenue - Cost.  
 
-## Inventory:
+### Inventory:
 Store_ID – ID único de la tienda.  
 Product_ID – ID único del producto.  
 Stock_On_Hand – Cantidad disponible del producto en inventario en la tienda.  
 
 Además, se incorporaron una tabla de calendario para facilitar el análisis temporal por fechas y una tabla de estados de México para mejorar la visualización geográfica y reorganización del mapa interactivo según la ubicación de las tiendas.
 
-## States
+### States
 City - Ciudad de México donde está ubicada la tienda  
 State - Estado de México donde está ubicada la tienda.  
 
-## Calendar
+### Calendar
 Date – Fecha completa.  
 Month – Nombre del mes (ej. Enero, Febrero, etc.).  
 Month Order – Número del mes (1 para Enero, 2 para Febrero, etc.).  
