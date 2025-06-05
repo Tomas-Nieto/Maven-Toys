@@ -3,7 +3,7 @@ Análisis de ventas de Maven Toys, franquicia de jugueterías en México utiliza
 
 Se nos dan dados datos de ventas e inventario de una cadena ficticia de jugueterías en México llamada Maven Toys. Estos datos incluyen información sobre productos, tiendas, transacciones diarias de venta y niveles de inventario actuales en cada sucursal. Los datos abarcan del 1 de enero de 2022 al 30 de septiembre de 2023 y contienen más de 820,000 transacciones de todas las tiendas propiedad de Maven Toys. 
 
-## Objetivos
+## Objetivos  
 El objetivo es preparar los datos, analizarlos y visualizarlos, y posteriormente presentar los hallazgos que permitan a la cadena de jugueterías mejorar su capacidad de toma de decisiones e incrementar sus ganancias.  
 
 # Recopilacion de Datos
