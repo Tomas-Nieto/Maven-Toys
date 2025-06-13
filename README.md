@@ -61,6 +61,11 @@ El modelo de datos está estructurado bajo un enfoque de esquema en estrella, do
 
 # Visualizacion de los Datos 
 
+## Sales Report 
+
+
+## Inventory Management
+
 
 
 
