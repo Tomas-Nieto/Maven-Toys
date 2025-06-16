@@ -67,6 +67,9 @@ El modelo de datos está estructurado bajo un enfoque de esquema en estrella, do
 ## Inventory Management
 
 
+# Conclusion 
+
+
 
 
 
